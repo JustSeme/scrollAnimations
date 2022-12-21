@@ -1,0 +1,97 @@
+.active.box-1 {
+    animation: box-1 1s ease;
+}
+.active.box-2 {
+    animation: box-2 1s linear;
+}
+.active.box-3 {
+    animation: box-3 1s ease-in;
+}
+.active.box-4 {
+    animation: box-4 1s ease-in-out;
+}
+.active.box-5 {
+    animation: box-5 1s cubic-bezier(.66,.39,.21,.67);
+}
+.active.box-6 {
+    animation: box-6 1s cubic-bezier(1,-0.42,.42,-0.39);
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+}
+.reveal.active {
+    opacity: 1;
+}
+
+p {
+    font-size: 30px;
+}
+h3 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 60px;
+}
+
+@keyframes box-1 {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: (translateY(0));
+        opacity: 1;
+    }
+}
+@keyframes box-2 {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: (translateY(0));
+        opacity: 1;
+    }
+}
+@keyframes box-3 {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: (translateY(0));
+        opacity: 1;
+    }
+}
+@keyframes box-4 {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: (translateY(0));
+        opacity: 1;
+    }
+}
+@keyframes box-5 {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: (translateY(0));
+        opacity: 1;
+    }
+}
+@keyframes box-6 {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: (translateY(0));
+        opacity: 1;
+    }
+}
